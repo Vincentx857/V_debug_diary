@@ -1,6 +1,7 @@
 # V_debug_diary
 
-# return index of element
+## return index of element
+```python
 label_ = np.random.choice(2, int(n_), replace=True, p=[0.5, 0.5])
 index_0_ = np.transpose(np.array((label_ == 0).nonzero()))
 index_1_ = np.transpose(np.array((label_ == 1).nonzero()))
